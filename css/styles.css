@@ -1,19 +1,37 @@
 /******************************************************
 HOME STYLES
 ******************************************************/
-.home {
-    background: url("http://goo.gl/G7ZB66") no-repeat center center fixed;
+.home::after {
+    content: "";
+      background: url("http://goo.gl/G7ZB66") no-repeat center fixed;
+      opacity: 0.95;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1; 
+      height: 100%;
 }
 
+.home_page {
+    text-align: center;
+}
 
-
+.home_buttons {
+    background: rgba(255, 255, 255, .5);
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
 
 /******************************************************
 CONTENT STYLES
 ******************************************************/
 .sughra_content {
      background: url("http://goo.gl/ABy0wQ") no-repeat center center fixed;
-     opacity: .5;
+     background-position: 180px 480px;
+     /*opacity: .5;*/
 }
 
 .content_box {
