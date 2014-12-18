@@ -1,9 +1,10 @@
 /******************************************************
 HOME STYLES
 ******************************************************/
+/*
 .home::after {
     content: "";
-      background: url("http://goo.gl/G7ZB66") no-repeat center fixed;
+      background: url("http://goo.gl/2Xq8pP") center;
       opacity: 0.95;
       top: 0;
       left: 0;
@@ -13,17 +14,46 @@ HOME STYLES
       z-index: -1; 
       height: 100%;
 }
+*/
+
+.home {
+	background: url("http://goo.gl/2Xq8pP") no-repeat center center;
+}
 
 .home_page {
     text-align: center;
+}
+
+#logo img {
+	width: 325px;
+	height: 274px;
+}
+
+#home_button_box ul {
+	padding: 0;
 }
 
 .home_buttons {
     background: rgba(255, 255, 255, .5);
     text-decoration: none;
     list-style: none;
-    color: #000;
+    margin: 0 auto 10px auto;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
 }
+
+.home_buttons a {
+	color: #000;
+	font-size: 2.25em;
+	line-height: 50px;
+}
+
+.home_buttons a:hover {
+	text-decoration: none;
+}
+
+
 
 /******************************************************
 CONTENT STYLES
