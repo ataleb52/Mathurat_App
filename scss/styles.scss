@@ -20,10 +20,8 @@ HOME STYLES
 .home {
 	background: url("http://goo.gl/2Xq8pP") no-repeat center center;
 	font-family: 'Oswald', sans-serif;
-	
 	.home_page {
     	text-align: center;
-    	
     	#logo {
     		img {
 				width: 325px;
@@ -34,37 +32,26 @@ HOME STYLES
 			ul {
 				padding: 0;
 			}
+			.home_buttons {
+			    background: rgba(255, 255, 255, .5);
+			    text-decoration: none;
+			    list-style: none;
+			    margin: 0 auto 10px auto;
+			    width: 200px;
+			    height: 50px;
+			    text-transform: uppercase;
+			    a {
+				    color: #000;
+					font-size: 2.25em;
+					line-height: 50px;
+			    }
+			    a:hover {
+				    text-decoration: none;
+			    }
+			}
 		}
 	}
 }
-
-
-
-
-
-
-
-.home_buttons {
-    background: rgba(255, 255, 255, .5);
-    text-decoration: none;
-    list-style: none;
-    margin: 0 auto 10px auto;
-    width: 200px;
-    height: 50px;
-    text-transform: uppercase;
-}
-
-.home_buttons a {
-	color: #000;
-	font-size: 2.25em;
-	line-height: 50px;
-}
-
-.home_buttons a:hover {
-	text-decoration: none;
-}
-
-
 
 /******************************************************
 CONTENT STYLES

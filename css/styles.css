@@ -26,23 +26,20 @@ HOME STYLES
       height: 274px; }
     .home .home_page #home_button_box ul {
       padding: 0; }
-
-.home_buttons {
-  background: rgba(255, 255, 255, 0.5);
-  text-decoration: none;
-  list-style: none;
-  margin: 0 auto 10px auto;
-  width: 200px;
-  height: 50px;
-  text-transform: uppercase; }
-
-.home_buttons a {
-  color: #000;
-  font-size: 2.25em;
-  line-height: 50px; }
-
-.home_buttons a:hover {
-  text-decoration: none; }
+    .home .home_page #home_button_box .home_buttons {
+      background: rgba(255, 255, 255, 0.5);
+      text-decoration: none;
+      list-style: none;
+      margin: 0 auto 10px auto;
+      width: 200px;
+      height: 50px;
+      text-transform: uppercase; }
+      .home .home_page #home_button_box .home_buttons a {
+        color: #000;
+        font-size: 2.25em;
+        line-height: 50px; }
+      .home .home_page #home_button_box .home_buttons a:hover {
+        text-decoration: none; }
 
 /******************************************************
 CONTENT STYLES
