@@ -54,14 +54,48 @@ HOME STYLES
 }
 
 /******************************************************
+NAV STYLES STYLES
+******************************************************/
+.buttonset {
+	margin-left: 15px;
+	margin-top: 15px;
+	button {
+		float: left;
+	}
+}
+
+/******************************************************
 CONTENT STYLES
 ******************************************************/
 .sughra_content {
-     background: url("http://goo.gl/ABy0wQ") no-repeat center center fixed;
-     background-position: 180px 480px;
-     /*opacity: .5;*/
+     background: url("http://goo.gl/ABy0wQ") no-repeat center center;
+     .buttonset {
+	 	h1 {
+			float: left;
+			margin: 0 20px;
+			text-transform: uppercase;
+		}
+     }
+     .page_content {
+	     clear: both;
+     }
+     
+     
+     
+     
+     
+     .content_box {
+	 	background: rgba(255, 255, 255, 0.4);
+	 }
 }
 
-.content_box {
-    background: rgba(255, 255, 255, 0.4);
-}
+
+
+
+
+
+
+
+
+
+

@@ -42,12 +42,24 @@ HOME STYLES
         text-decoration: none; }
 
 /******************************************************
+NAV STYLES STYLES
+******************************************************/
+.buttonset {
+  margin-left: 15px;
+  margin-top: 15px; }
+  .buttonset button {
+    float: left; }
+
+/******************************************************
 CONTENT STYLES
 ******************************************************/
 .sughra_content {
-  background: url("http://goo.gl/ABy0wQ") no-repeat center center fixed;
-  background-position: 180px 480px;
-  /*opacity: .5;*/ }
-
-.content_box {
-  background: rgba(255, 255, 255, 0.4); }
+  background: url("http://goo.gl/ABy0wQ") no-repeat center center; }
+  .sughra_content .buttonset h1 {
+    float: left;
+    margin: 0 20px;
+    text-transform: uppercase; }
+  .sughra_content .page_content {
+    clear: both; }
+  .sughra_content .content_box {
+    background: rgba(255, 255, 255, 0.4); }
